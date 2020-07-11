@@ -114,7 +114,7 @@ nav{
 }
 .blue_container{
     width: 100%;
-    background: #87ceeb;
+    background: #2196f3;
     min-height: 600px;
 }
 .slide1{
@@ -123,7 +123,7 @@ nav{
     min-height: 610px;
 }
 .slide2{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     background-color: #fff;
     color: black;
@@ -138,7 +138,7 @@ nav{
 .slide3{
     width: 60%;
     margin: 0 auto;
-    background-color: #87ceeb;
+    background-color: #2196f3;
     min-height: 600px;
     padding: 0;
 }
@@ -158,15 +158,19 @@ nav{
 }
 
 /*Slide1 Contents*/
-#name_intro{
+.name_intro{
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: bolder;
     margin: 0 auto;
     padding-top: 200px;
 }
-#name_description{
+.name_description{
     text-align: center;
     margin: 0 auto;
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 /*Slide2 Contents*/
@@ -290,4 +294,21 @@ nav{
     font-size: 12px;
     text-align: center;
     padding-bottom: 30px;
+}
+
+@media (max-width:468px) {
+    .home_top_content{
+        width: 100%;
+    }
+    .slide1 .name_intro{
+        font-size: 40px;
+        width: 240px;
+    }
+    .slide1 .name_description{
+        font-size: 14px;
+        font-style: italic;
+    }
+    .footer{
+        height: 275px;
+    }
 }
