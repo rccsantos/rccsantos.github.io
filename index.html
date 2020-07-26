@@ -1,84 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ryan Santos | Home</title>
+    <title>Ryan Santos</title>
+    <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="icon" href="img/favicoon.ico">
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1c65013496.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<header class="home_top">
-    <div class="home_top_content">
-        <img src="img/own_logo.png" alt="logo" class="logo"/>
-        <nav>
-            <div class="hamburger-menu">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </div>
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/my_logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+            </li>
+        </ul>
     </div>
-</header>
-<div class="slide1">
-    <h1 class="name_intro">Hi, I'm Ryan.</h1>
-    <h2 class="name_description">Computer Engineer and Virtual Assistant</h2>
 </div>
-<div class="white_container">
-    <div class="title">What I can do</div>
-    <div class="slide2">
-        <div class="box">
-            <div class="icon">01</div>
-            <div class="content">
-                <h3>Systems/Networks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magni vitae libero illum sed fugit fuga atque cupiditate
-                rerum est quibusdam.</p>
-            </div>
+</nav>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">I'm Ryan</h1>
         </div>
-        <div class="box">
-            <div class="icon">02</div>
-            <div class="content">
-                <h3>UI Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magni vitae libero illum sed fugit fuga atque cupiditate
-                rerum est quibusdam.</p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="icon">03</div>
-            <div class="content">
-                <h3>e-Commerce VA</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magni vitae libero illum sed fugit fuga atque cupiditate
-                rerum est quibusdam.</p>
-            </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">a Linux System Administrator , Amazon Virtual Assistant.</p>
         </div>
     </div>
 </div>
-<div class="blue_container">
-    <div class="slide3">
-        <p>Timeline Area</p>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6 display-border">
+            <i class="fab fa-redhat" aria-hidden="true" style="color: #035efc"></i>
+            <h2>DevOps</h2>
+            <p class="content">
+                I have a fundamental knowledge of Linux. I learned maintaining and administering 
+                computer networks including computer hardware, systems software, application software, 
+                and configurations.<br><br>
+                <span style="color: #035efc;">System Admin Tools:<br></span>
+                Wireshark<br>Dnsmasq<br>Git<br>Notepad++<br>Ansible<br>PuTTy<br>
+            </p>
+        </div>
+        <div class="col-lg-6 display-border">
+            <i class="fas fa-hands-helping" aria-hidden="true" style="color: #035efc"></i>
+            <h2>eCommerce VA</h2>
+            <p class="content">
+                2 months of experience in freelancing. I have the ability for handling multiple emails, 
+                performing market research, managing schedules, and providing customer service, among any
+                others.<br><br>
+                <span style="color: #035efc;">Software Tools:<br></span>
+                Asana<br>G Suite (Docs, Calendar, Spreadsheets)<br>Shopify<br>
+                JungleScout<br>LastPass<br>Canva<br>
+            </p>
+        </div>
     </div>
 </div>
-<div class="white_container">
-    <div class="slide4">
-        <p>Achievements/Certifications</p>
+
+<!--- Hire Me Section -->
+<div class="container-fluid padding">
+    <div class="row text-center">
+        <div class="col-12">
+            <p class="hire">I'm currently available for freelance work.</p>
+            <p style="width: 60%; text-align: center; margin: 0 auto;">
+                Plan to start your business and need someone who can help you with it. Feel free to message 
+                me anytime, and I assure you the best and accurate employee you can ever found.
+            </p><br><br>
+            <a href="mailto: santos1998ryan@yahoo.com" class="btn-message">Start a conversation</a>
+        </div>
     </div>
 </div>
+
+<!--- Footer -->
 <div class="footer">
     <ul>
-        <li><a href="https://twitter.com/@ryanchrisss" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="https://instagram.com/ryanchrissss_" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="https://linkedin.com/in/rccsantos18" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/@ryanchrisss" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color:#fff"></i></a></li>
+        <li><a href="https://instagram.com/ryanchrissss_" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color:#fff"></i></a></li>
+        <li><a href="https://linkedin.com/in/rccsantos18" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color:#fff"></i></a></li>
     </ul>
     <p>&#169; 2020 Ryan Santos. All rights reserved.</p>
 </div>
-<script src="script.js"></script>
 </body>
 </html>
