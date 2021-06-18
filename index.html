@@ -1,113 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ryan Santos</title>
+    <title>Ryan Santos | Home</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/1c65013496.js" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light fixed-top">
-<div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/my_logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
-            </li>
-        </ul>
-    </div>
-</div>
-</nav>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <!-- <a id="navbar_logo"><img src="img/logo.png"></a> -->
+            <a href="#" id="navbar_logo">LOGO</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about-page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#skills" class="navbar_links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#" class="navbar_links" id="resume-page">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-<!--- Welcome Section -->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <!--<div class="col-12">
-            <h1 class="display-4">I'm Ryan</h1>
-        </div>
-        <hr>
-        <div class="col-12">
-            <p class="lead">a Linux System Administrator , Amazon Virtual Assistant.</p>
-        </div>-->
-        <div class="col-12">
-            <h1 class="display-4">Down for Maintenance</h1>
-        </div>
-        <hr>
-        <div class="col-12">
-            <p class="lead">Come Back Soon</p>
-        </div>
-    </div>
-</div>
-
-<!--- Two Column Section 
-<div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-lg-6 display-border">
-            <i class="fab fa-redhat" aria-hidden="true" style="color: #035efc"></i>
-            <h2>DevOps</h2>
-            <p class="content">
-                I have a fundamental knowledge of Linux. I learned maintaining and administering 
-                computer networks including computer hardware, systems software, application software, 
-                and configurations.<br><br>
-                <span style="color: #035efc;">System Admin Tools:<br></span>
-                Wireshark<br>Dnsmasq<br>Git<br>Notepad++<br>Ansible<br>PuTTy<br>
-            </p>
-        </div>
-        <div class="col-lg-6 display-border">
-            <i class="fas fa-hands-helping" aria-hidden="true" style="color: #035efc"></i>
-            <h2>eCommerce VA</h2>
-            <p class="content">
-                2 months of experience in freelancing. I have the ability for handling multiple emails, 
-                performing market research, managing schedules, and providing customer service, among any
-                others.<br><br>
-                <span style="color: #035efc;">Software Tools:<br></span>
-                Asana<br>G Suite (Docs, Calendar, Spreadsheets)<br>Shopify<br>
-                JungleScout<br>LastPass<br>Canva<br>
-            </p>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <h4 class="hero_intro">Hello</h4>
+            <h1 class="hero_heading">I'm Ryan</h1>
+            <h4 class="hero_description">Designer + Developer</h4>
+            <div class="social_icons">
+                <ul>
+                    <li>
+                        <a href="https://linkedin.com/in/rccsantos18" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/@ryanchrisss" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/ryanchrissss_" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>-->
 
-<!--- Hire Me Section 
-<div class="container-fluid padding">
-    <div class="row text-center">
-        <div class="col-12">
-            <p class="hire">I'm currently available for freelance work.</p>
-            <p style="width: 60%; text-align: center; margin: 0 auto;">
-                Plan to start your business and need someone who can help you with it. Feel free to message 
-                me anytime, and I assure you the best and accurate employee you can ever found.
-            </p><br><br>
-            <a href="mailto: santos1998ryan@yahoo.com" class="btn-message">Start a conversation</a>
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_content">
+                <h4>Who am I</h4>
+                <p>I’m a <strong>UI Designer</strong> and <strong>Front-End Developer</strong>
+                    from the Philippines.
+                    <br><br>
+                    I started to learn programming when I was in
+                    college. I like learning the structure of coding
+                    and I always seek to write efficient code.
+                    <br><br>
+                    When I feel tired, I play basketball and sometimes
+                    playing mobile games like Clash of Clans.</p>
+            </div>
+            <div class="main_img_container">
+                <img src="img/undraw_Code_thinking_re_gka2.svg" id="main_img"/>
+            </div>
         </div>
     </div>
-</div>-->
 
-<!--- Footer 
-<div class="footer">
-    <ul>
-        <li><a href="https://twitter.com/@ryanchrisss" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color:#fff"></i></a></li>
-        <li><a href="https://instagram.com/ryanchrissss_" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color:#fff"></i></a></li>
-        <li><a href="https://linkedin.com/in/rccsantos18" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color:#fff"></i></a></li>
-    </ul>
-    <p>&#169; 2020 Ryan Santos. All rights reserved.</p>
-</div>-->
+    <!-- Skills Section -->
+    <div class="skill" id="skills">
+        <div class="skill_container">
+            <div class="skill_content">
+                <h4>What I do</h4>
+                <h3>Specializing in</h3>
+                <div class="ui-icons">
+                    <img src="img/html.svg" alt="html">
+                    <img src="img/css.svg" alt="css">
+                    <img src="img/javascript.svg" alt="javascript">
+                    <img src="img/mysql.svg" alt="mysql">
+                </div>
+                <div class="illustration-icons">
+                    <img src="img/java.svg" alt="java">
+                    <img src="img/figma.svg" alt="figma">
+                    <img src="img/canva.svg" alt="canva">
+                    <img src="img/photoshop.svg" alt="photoshop">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <div class="contact_container">
+            <h3>Stay Connected</h3>
+            <p>Metro Manila, PH</p>
+            <h2>santos1998ryan@yahoo.com</h2>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer_container" id="footer">
+        <p>&#169; RCS 2021. All Rights Reserved.</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
 </body>
 </html>
